@@ -1,0 +1,10 @@
+.home-slideshow{
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  display: inherit;
+  width: auto;
+  height: 700px;
+}

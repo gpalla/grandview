@@ -1,3 +1,45 @@
-<h1>
-  {{title}}
-</h1>
+<div id="wrap">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 gvtitle">
+          The Grandview
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-toggleable-md navbar-light bg-default">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand gvmenu" routerLink="/home" routerLinkActive="active" href="#">GV</a>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home" routerLinkActive="active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/board" routerLinkActive="active" href="#">Board Members</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Temp</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+      <router-outlet></router-outlet>
+</div>
+
+<div id="footer">
+  <div class="container">
+    The Grandview Buckhead |
+    Address: <a href="https://www.google.com/maps/place/3481+Lakeside+Dr+NE,+Atlanta,+GA+30326/@33.8490706,-84.3593072,17z/data=!3m1!4b1!4m5!3m4!1s0x88f50f5455278b8f:0xb43d728fb31c27bb!8m2!3d33.8490706!4d-84.3571185" target="_blank">3481 Lakeside Dr NE, Atlanta, GA 30326</a> |
+    Phone: (404) 233-2167 |
+    &copy; 2017<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>,
+    <a href="https://www.linkedin.com/in/geni-palla-05985a65/" target="_blank">Geni Palla</a>
+  </div>
+</div>
