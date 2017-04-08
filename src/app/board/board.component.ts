@@ -29,7 +29,7 @@ const GVMembers: Member[] = [
   },
   {
     id: 'exm',
-    name: 'Ed Mosely',
+    name: 'Ed Moseley',
     short_desc: 'short test ed mosely',
     long_desc: 'long test ed mosely',
     start_date: new Date(2010, 5, 14),
@@ -62,7 +62,7 @@ const GVMembers: Member[] = [
   },
   {
     id: 'jxd',
-    name: 'Janet King',
+    name: 'Janet Kenig',
     short_desc: 'short test Janet King',
     long_desc: 'long test Janet King',
     start_date: new Date(2010, 5, 14),
